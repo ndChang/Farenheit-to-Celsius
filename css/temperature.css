@@ -1,0 +1,71 @@
+body{
+    background: blanchedalmond;
+    color: white;
+    text-shadow: -1px 2px grey;
+}
+h2{
+    margin-top: 10px;
+}
+.container {
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.pop-up {
+    display: flex;
+    flex-direction: row;
+}
+.pop-up-overlay {
+    visibility: hidden;
+}
+.active {
+    visibility: visible;
+}
+#celsius {
+    font-size: 30px;
+}
+#temperature {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+#start {
+    margin-right: 40px;
+    /* border: 2px solid black;
+    border-right: 0; */
+}
+#tintWinter{
+    position: absolute;
+    margin-right: 4px;
+    width: 255px;
+    height: 600px;
+    background: rgba(0, 0, 0, .6);
+}
+#tintSpring{
+    position: absolute;
+    margin-left: 263px;
+    width: 256px;
+    height: 600px;
+    background: rgba(0, 0, 0, .6);
+}
+#tintSummer{
+    position: absolute;
+    margin-left: 525px;
+    width: 256px;
+    height: 600px;
+    background: rgba(0, 0, 0, .6);
+}
+#tintAutumn{
+    position: absolute;
+    margin-left: 788px;
+    width: 252px;
+    height: 600px;
+    background: rgba(0, 0, 0, .6);
+}
+img {
+    width: 100%;
+    max-height: 600px;
+}

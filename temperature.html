@@ -4,16 +4,39 @@
         <link rel="stylesheet" href="css/temperature.css">
     </head>
     <body>
-        <h1>Convert your Temperature from Farenheit to Celsius</h1>
-        <form id="temperature">
-            <h2>Farenheit</h2>
-            <input type="text" placeholder="Temperature">
+        <div class="container">
+            <h1>
+                Convert your Temperature from Farenheit to Celsius</h1>
+            <form id="temperature">
+                <div id="start">
+                    <h2>
+                        Farenheit</h2>
+                    <input id="farenheit" type="text" placeholder="Temperature">
+                </div>  
+                <div id="conversion">
+                    <h2>
+                        Celsius</h2>
+                    <p id="celsius">
+                        Conversion
+                    </p>
+                </div>
+            </form>
             <div>
-                <h2>Celsius</h2>
-                <p id="Celsius">Temperature</p>
-            </div>
-        </form>
+                <div class="pop-up">
+                    <div class="pop-up-overlay" id="tintWinter">
+                    </div>
+                    <div class="pop-up-overlay" id="tintSpring">
+                    </div>
+                    <div class="pop-up-overlay" id="tintSummer">
+                    </div>
+                    <div class="pop-up-overlay" id="tintAutumn">
+                    </div>
+                    <img id="seasons" src="images/seasons.png">
+                </div>
+                    <!-- Display background -->
+                </div>
+        </div>  
             <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
-            <script src="cashRegister.js" type="application/javascript"></script>
+            <script src="js/temperature.js" type="application/javascript"></script>
     </body>
 </html>
